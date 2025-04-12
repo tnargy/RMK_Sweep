@@ -2,6 +2,9 @@
 
 RMK is a feature-rich and easy-to-use keyboard firmware.
 
+## Keymap
+![layout](rmk_sweep.svg)
+
 ## Use the template
 
 1. Install [probe-rs](https://github.com/probe-rs/probe-rs)
