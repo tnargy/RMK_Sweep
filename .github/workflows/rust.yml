@@ -1,8 +1,8 @@
 name: Rust
 
-on:
-  push:
-    branches: [ "main" ]
+on: workflow_dispatch
+#   push:
+#     branches: [ "main" ]
 
 env:
   CARGO_TERM_COLOR: always
@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: cargo-bins/cargo-binstall@main
     - uses: actions/checkout@v4
-    - name: Install rmkit, flip-link and cargo-make
+    - name: Install cargo-make
       run: cargo binstall cargo-make -y
 
     - name: Build firmware
