@@ -19,11 +19,9 @@ jobs:
       run: cargo binstall cargo-make -y
 
     - name: Build firmware
-      working-directory: ./rmk
       run: cargo build --release
 
     - name: Build uf2 firmware
-      working-directory: ./rmk
       run: cargo make uf2 --release
 
     - name: Upload artifacts
