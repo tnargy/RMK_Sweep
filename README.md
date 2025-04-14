@@ -3,7 +3,8 @@
 RMK is a feature-rich and easy-to-use keyboard firmware.
 
 ## Keymap
-![layout](rmk_sweep.svg)
+Outdated image
+<!-- ![layout](rmk_sweep.svg) -->
 
 ## Use the template
 
