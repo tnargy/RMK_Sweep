@@ -1,6 +1,7 @@
 # RMK 
 
 RMK is a feature-rich and easy-to-use keyboard firmware.
+https://github.com/haobogu/rmk
 
 ## Keymap
 Outdated image
