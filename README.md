@@ -4,7 +4,6 @@ RMK is a feature-rich and easy-to-use keyboard firmware.
 https://github.com/haobogu/rmk
 
 ## Keymap
-Outdated image
 ![layout](rmk_sweep.svg)
 <!-- https://yal-tools.github.io/vial-to-keymap-drawer/
 https://keymap-drawer.streamlit.app/ -->
