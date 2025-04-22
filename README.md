@@ -5,7 +5,9 @@ https://github.com/haobogu/rmk
 
 ## Keymap
 Outdated image
-<!-- ![layout](rmk_sweep.svg) -->
+![layout](rmk_sweep.svg)
+<!-- https://yal-tools.github.io/vial-to-keymap-drawer/
+https://keymap-drawer.streamlit.app/ -->
 
 ## Use the template
 
