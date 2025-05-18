@@ -18,7 +18,7 @@ keymap = [
         ["_", "_", "_", "LT(2, Tab)", "Enter", "Space", "LT(1, Backspace)", "_", "_", "_", ],
     ],
     [ # Right
-        ["Insert", "Kc1", "Kc2", "Kc3", "_", "Home", "PageDown", "PageUp", "End", "Colon", ],
+        ["Insert", "Kc1", "Kc2", "Kc3", "_", "Home", "PageDown", "PageUp", "End", "WM(Semicolon, Shift)", ],
         ["Delete", "_", "Kc4", "Kc5", "Kc6", "Left", "Down", "Up", "Right", "Semicolon", ],
         ["CapsLock", "_", "Kc7", "Kc8", "Kc9", "Kc0", "_", "_", "_", "_", ],
         ["_", "_", "_", "_", "Escape", "_", "_", "_", "_", "_", ],
