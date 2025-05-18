@@ -40,7 +40,7 @@ keymap = [
 [storage]
 
 [behavior]
-tri_layer = { uppper = 1, lower = 2, adjust = 3 }
+tri_layer = { upper = 1, lower = 2, adjust = 3 }
 # tap_hold = { enable_hrm = true, prior_idle_time = "120ms", hold_timeout = "250ms", post_wait_time = "50ms"}
 
 [behavior.combo]
