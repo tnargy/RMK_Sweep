@@ -11,25 +11,26 @@ rows = 4
 cols = 10
 layers = 4
 keymap = [
-    [
+    [ # Default
         ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", ],
         ["MT(A, LShift)", "MT(S, LAlt)", "MT(D, LCtrl)", "MT(F, LGui)", "G", "H", "MT(J, RGui)", "MT(K, RCtrl)", "MT(L, RAlt)", "MT(Semicolon, LShift)", ],
         ["Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", ],
         ["_", "_", "_", "LT(2, Tab)", "Enter", "Space", "LT(1, Backspace)", "_", "_", "_", ],
     ],
+    [ # Right
         ["Insert", "Kc1", "Kc2", "Kc3", "_", "Home", "PageDown", "PageUp", "End", "Colon", ],
         ["Delete", "_", "Kc4", "Kc5", "Kc6", "Left", "Down", "Up", "Right", "Semicolon", ],
         ["CapsLock", "_", "Kc7", "Kc8", "Kc9", "Kc0", "_", "_", "_", "_", ],
         ["_", "_", "_", "_", "Escape", "_", "_", "_", "_", "_", ],
     ],
-    [
-        ["_", "LeftBracket", LBRC, RBRC, "_", CARET, LPAR, RPAR, RBKT, TILDE, ],
-        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    [ # Left
+        ["_", "LeftBracket", "WM(LeftBracket, Shift)", "WM(RightBracket, Shift)", "_", "WM(Kc6, Shift)", "WM(Kc9, Shift)", "WM(Kc0, Shift)", "RightBracket", "Grave", ],
+        ["WM(Kc1, Shift)", "WM(Kc2, Shift)", "WM(Kc3, Shift)", "WM(Kc4, Shift)", "WM(Kc5, Shift)", "WM(Kc8, Shift)", "WM(Minus, Shift)", "WM(Equal, Shift)", "Backslash", "WM(Grave, Shift)", ],
+        ["_", "_", "_", "_", "_", "WM(Kc7, Shift)", "WM(Minus, Shift)", "WM(Equal, Shift)", "WM(Backslash, Shift)", "_", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
     ],
-    [
-        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    [ # Both
+        ["Reset", "_", "_", "_", "_", "_", "_", "_", "_", "Reset", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
@@ -39,7 +40,8 @@ keymap = [
 [storage]
 
 [behavior]
-tap_hold = { enable_hrm = true, prior_idle_time = "120ms", hold_timeout = "250ms", post_wait_time = "50ms"}
+tri_layer = { uppper = 1, lower = 2, adjust = 3 }
+# tap_hold = { enable_hrm = true, prior_idle_time = "120ms", hold_timeout = "250ms", post_wait_time = "50ms"}
 
 [behavior.combo]
 timeout = "150ms"
