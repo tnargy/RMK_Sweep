@@ -18,15 +18,15 @@ keymap = [
         ["_", "_", "_", "LT(2, Tab)", "Enter", "Space", "LT(1, Backspace)", "_", "_", "_", ],
     ],
     [ # Right
-        ["Insert", "Kc1", "Kc2", "Kc3", "_", "Home", "PageDown", "PageUp", "End", "WM(Semicolon, Shift)", ],
-        ["Delete", "_", "Kc4", "Kc5", "Kc6", "Left", "Down", "Up", "Right", "Semicolon", ],
-        ["CapsLock", "_", "Kc7", "Kc8", "Kc9", "Kc0", "_", "_", "_", "_", ],
+        ["Insert", "Kc1", "Kc2", "Kc3", "_", "Home", "PageDown", "PageUp", "End", "SHIFTED(Semicolon)", ],
+        ["Delete", "Kc4", "Kc5", "Kc6", "_", "Left", "Down", "Up", "Right", "Semicolon", ],
+        ["CapsLock","Kc7", "Kc8", "Kc9", "Kc0", "_", "_", "_", "_", "_", ],
         ["_", "_", "_", "_", "Escape", "_", "_", "_", "_", "_", ],
     ],
     [ # Left
-        ["_", "LeftBracket", "WM(LeftBracket, Shift)", "WM(RightBracket, Shift)", "_", "WM(Kc6, Shift)", "WM(Kc9, Shift)", "WM(Kc0, Shift)", "RightBracket", "Grave", ],
-        ["WM(Kc1, Shift)", "WM(Kc2, Shift)", "WM(Kc3, Shift)", "WM(Kc4, Shift)", "WM(Kc5, Shift)", "WM(Kc8, Shift)", "WM(Minus, Shift)", "WM(Equal, Shift)", "Backslash", "WM(Grave, Shift)", ],
-        ["_", "_", "_", "_", "_", "WM(Kc7, Shift)", "WM(Minus, Shift)", "WM(Equal, Shift)", "WM(Backslash, Shift)", "_", ],
+        ["_", "LeftBracket", "SHIFTED(LeftBracket)", "SHIFTED(RightBracket)", "_", "SHIFTED(Kc6)", "SHIFTED(Kc9)", "SHIFTED(Kc0)", "RightBracket", "Grave", ],
+        ["SHIFTED(Kc1)", "SHIFTED(Kc2)", "SHIFTED(Kc3)", "SHIFTED(Kc4)", "SHIFTED(Kc5)", "SHIFTED(Kc8)", "SHIFTED(Minus)", "SHIFTED(Equal)", "Backslash", "SHIFTED(Grave)", ],
+        ["_", "_", "_", "_", "_", "SHIFTED(Kc7)", "SHIFTED(Minus)", "SHIFTED(Equal)", "SHIFTED(Backslash)", "_", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
     ],
     [ # Both
@@ -41,7 +41,7 @@ keymap = [
 
 [behavior]
 tri_layer = { upper = 1, lower = 2, adjust = 3 }
-# tap_hold = { enable_hrm = true, prior_idle_time = "120ms", hold_timeout = "250ms", post_wait_time = "50ms"}
+tap_hold = { enable_hrm = true, prior_idle_time = "120ms", hold_timeout = "250ms", post_wait_time = "50ms"}
 
 [behavior.combo]
 timeout = "150ms"
