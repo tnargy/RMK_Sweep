@@ -21,7 +21,7 @@ keymap = [
         ["Insert", "Kc1", "Kc2", "Kc3", "_", "Home", "PageDown", "PageUp", "End", "SHIFTED(Semicolon)", ],
         ["Delete", "Kc4", "Kc5", "Kc6", "_", "Left", "Down", "Up", "Right", "Semicolon", ],
         ["CapsLock","Kc7", "Kc8", "Kc9", "Kc0", "_", "_", "_", "_", "_", ],
-        ["_", "_", "_", "_", "Escape", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "SHIFTED(Tab)", "Escape", "_", "_", "_", "_", "_", ],
     ],
     [ # Left
         ["_", "LeftBracket", "SHIFTED(LeftBracket)", "SHIFTED(RightBracket)", "_", "SHIFTED(Kc6)", "SHIFTED(Kc9)", "SHIFTED(Kc0)", "RightBracket", "Grave", ],
@@ -33,7 +33,7 @@ keymap = [
         ["Bootloader", "_", "_", "_", "_", "_", "_", "_", "_", "Bootloader", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+        ["KeyCode::Macro0", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
     ],
 ]
 
@@ -50,6 +50,11 @@ combos = [
   { actions = ["J", "K"], output = "Escape" },
 ]
 
+[behavior.macro.macros]]
+operations = [
+    { operation = "text", text = "1 drink my coffee black." },
+    { operation = "tap", keycode = "Enter" },
+]
 
 [split]
 connection = "serial"
