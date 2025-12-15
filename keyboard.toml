@@ -50,7 +50,7 @@ combos = [
   { actions = ["J", "K"], output = "Escape" },
 ]
 
-[behavior.macro.macros]]
+[behavior.macro.macros]
 operations = [
     { operation = "text", text = "1 drink my coffee black." },
     { operation = "tap", keycode = "Enter" },
