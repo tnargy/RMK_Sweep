@@ -33,7 +33,7 @@ keymap = [
         ["Bootloader", "_", "_", "_", "_", "_", "_", "_", "_", "Bootloader", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-        ["KeyCode::Macro0", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
     ],
 ]
 
@@ -48,12 +48,6 @@ timeout = "150ms"
 combos = [
   # Press J and K keys simultaneously to output Escape key
   { actions = ["J", "K"], output = "Escape" },
-]
-
-[behavior.macro.macros]
-operations = [
-    { operation = "text", text = "1 drink my coffee black." },
-    { operation = "tap", keycode = "Enter" },
 ]
 
 [split]
